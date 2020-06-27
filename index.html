@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>::My Shop::</title>
+    <link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
@@ -27,7 +28,9 @@
             <!---------Search Area------------->
             <div id="search">
                 <form action="">
-                    <input class="search-area" type="text" name="text" placeholder="Search Here">
+                    <label>
+                        <input class="search-area" type="text" name="text" placeholder="Search Here">
+                    </label>
                     <input class="search-btn" type="submit" name="submit" value="SEARCH">
                 </form>
             </div>
@@ -49,8 +52,21 @@
             <a href="#">Order</a>
         </nav>
     </div>
+    <!----------------------Slider------------------->
+    <div id="Silder">
+        <ul class="bxslider">
+            <li><img src="images/banner1.png"></li>
+            <li><img src="images/banner2.png"></li>
+        </ul>
+
+    </div>
 </div>
 
-
+<script
+        src="http://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+        crossorigin="anonymous"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/jquery.bxslider.js"
 </body>
 </html>
